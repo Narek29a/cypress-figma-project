@@ -1,0 +1,94 @@
+.footer-bar {
+  background-color: #2C3878;
+  min-height: 203px;
+  margin-top: 100px;
+  left: 0;
+  width: 100%;
+}
+.footer-bar-content {
+  margin-top: 41px!important;
+}
+.toolbar-text-bold {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 170%;
+  color: white;
+}
+.toolbar-contact-us-content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #D9D9D9;
+  margin-left: 10%;
+}
+.footer-bar-button {
+  background-color: white;
+  color: #333333;
+  font-weight: 500;
+  font-size: 14px;
+  width: 142px;
+  height: 49px;
+  margin-top: 38px;
+}
+@media screen and (width < 700px) {
+  .toolbar-contact-us-content {
+    margin-top: 50px;
+    margin-left: 0;
+  }
+}
+.under-footer-bar {
+  width: 80%;
+  margin: 80px auto 100px auto;
+  padding-bottom: 100px;
+}
+.slogan {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 170%;
+  color: #333333;
+}
+.footer-label {
+  font-weight: 700;
+  font-size: 31.9301px;
+  line-height: 170%;
+}
+.email-input-header {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #333333;
+  display: flex;
+  justify-content: space-between;
+  margin: -2px 0 5px 10px;
+}
+.email-content {
+  margin-left: 10%;
+}
+.brightness-icon {
+  color: #333333;
+}
+@media screen and (width < 700px) {
+  .email-content {
+    margin-top: 50px;
+    margin-left: 0;
+  }
+}
+.content {
+  margin-left: 40%;
+}
+
+.social-media-buttons {
+  button{
+    width: 40px;
+    height: 40px;
+    background: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  img{
+    width: 25px;
+    height: 25px;
+    padding-bottom: 5px;
+  }
+}
